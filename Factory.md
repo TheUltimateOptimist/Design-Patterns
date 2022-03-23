@@ -14,6 +14,8 @@ Create a factory class that has a method that can be called for object creation.
 - you want to encapsulate object creation
 
 ## Example Code:
+[View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Factory/factory_example.dart)
+
     void main(List<String> args) {
       Animal animal = AnimalFactory().getAnimal(args[0]);
       animal.makeNoise();

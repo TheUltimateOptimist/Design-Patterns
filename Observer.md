@@ -17,6 +17,8 @@ Any concret subject that needs to share its state across multiple observers impl
 - Observers can be blind to the cost of changing the subject, because they do not know of each other
 
 ## Example Code:
+[View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer/observer_example.dart)
+
     void main(List<String> args) {
       StockMarket stockMarket = StockMarket();
       AmazonStock amazon = AmazonStock(stockMarket);

@@ -13,6 +13,8 @@ One algorithm interface is created. Then all different implementations of that a
 - when there are many different behaviours in one class as part of multiple  conditional statements
 
 ## Example Code:
+[View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Strategy/strategy_example.dart)
+
     void main(List<String> args) {
       Calculator normalCalculator = Calculator(AddNormal());
       Calculator absurdCalculator = Calculator(AddAbsurd());
