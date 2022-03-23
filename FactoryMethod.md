@@ -11,7 +11,7 @@
   - a class can not anticipate the class of objects it must create
   - a class wants its subclasses to specify the objects it creates
 
-- ## Implementation optioins:
+- ## Implementation options:
   - you can let the Crator class be a concrete class offering a default implementation for the factory method
   - you can let the factoryMethod take a parameter and produce multiple types of objects based on that
 
