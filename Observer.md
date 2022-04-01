@@ -19,6 +19,8 @@
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer/observer_example.dart)
 
+      import 'dart:async';
+
       void main(List<String> args) {
         StockMarket stockMarket = StockMarket();
         AmazonStock amazon = AmazonStock(stockMarket);
@@ -31,6 +33,16 @@
         amazon.printPrice();
         apple.printPrice();
 
+        //testing stream implementation
+        print("testing stream implementation");
+        SStockMarket sStockMarket = SStockMarket();
+        SAmazonStock sAmazon = SAmazonStock(sStockMarket);
+        SAppleStock sApple = SAppleStock(sStockMarket);
+        sAmazon.printPrice();
+        sApple.printPrice();
+        sStockMarket.changeStockPrices({"amazon": 1000, "apple": 500});
+        sAmazon.printPrice();
+        sApple.printPrice();
       }
 
       abstract class Observer{
@@ -110,5 +122,59 @@
 
         void printPrice(){
           print("Apple: " + stockPrice.toString() + " Euro");
+        }
+      }
+
+      //
+      //implemented with stream
+      //
+
+      class SStockMarket extends StreamView<SStockMarket>{  
+        SStockMarket._(this._controller) : super(_controller.stream.asBroadcastStream());
+        factory SStockMarket() => SStockMarket._(StreamController(sync: true,),);
+
+        final StreamController<SStockMarket> _controller;
+
+        Future<void> close() => _controller.close();
+
+        Map<String, double> _stockPrices = {"amazon":5, "apple": 6};
+
+        void changeStockPrices(Map<String, double> stockPrices) {
+          _stockPrices = stockPrices;
+          _controller.add(this);
+        }
+
+        double getStockPrice(String stockName){
+          return _stockPrices[stockName] ?? 0;
+        }
+      }
+
+      class SAmazonStock{
+        SAmazonStock(SStockMarket stockMarket){
+          stockPrice = stockMarket.getStockPrice("amazon");
+          subscription = stockMarket.listen((value) {
+            stockPrice = value.getStockPrice("amazon");
+          });
+        }
+        late double stockPrice;
+        late StreamSubscription<SStockMarket> subscription;
+
+        void printPrice(){
+          print("Amazon: $stockPrice Euro");
+        }
+      }
+
+      class SAppleStock{
+        SAppleStock(SStockMarket stockMarket){
+          stockPrice = stockMarket.getStockPrice("apple");
+          subscription = stockMarket.listen((value) {
+            stockPrice = value.getStockPrice("apple");
+          });
+        }
+        late double stockPrice;
+        late StreamSubscription<SStockMarket> subscription;
+
+        void printPrice(){
+          print("Apple: $stockPrice Euro");
         }
       }
