@@ -16,6 +16,8 @@
   - the notification a subject sends does not need to specify any kind of receiver
   - Observers can be blind to the cost of changing the subject, because they do not know of each other
 
+- ## Structure:
+  ![class diagramm](https://www.patrickschadler.com/content/images/2020/10/Observer-UML.png)
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer/observer_example.dart)
 
