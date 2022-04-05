@@ -17,7 +17,9 @@
   - It isolates code for construction and representation
   - It gives you finer control over the construction process
     Apart from other creational patterns the builder does not create the products in one shot but one step at a time. This gives you more control over the construction process
-  
+
+- ## Structure:
+  ![class diagram](https://3.bp.blogspot.com/-miqf6q3jYPU/Wj3rSlrhsTI/AAAAAAAABh4/ddnpgn_iZmIvJXxtPAgoidxWvvxkMnbGQCLcBGAs/s640/builder_structure.png)
 
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Builder/builder_example.dart)
