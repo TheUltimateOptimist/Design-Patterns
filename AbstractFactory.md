@@ -21,6 +21,9 @@
   - the concrete factorys can create the products using the factory method pattern
   - alternativly, if many different product families are possible, the abstract facotry can be implemented with the prototype pattern
 
+- ## Structure:
+  ![class diagram](https://narbase.com/wp-content/uploads/2020/06/SecondImage-700x328.jpeg)
+
 - ## Code Example:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/AbstractFactory/abstract_factory_example.dart)
 
