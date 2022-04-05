@@ -12,6 +12,9 @@
   - an algorithm uses data clients should not know about
   - when there are many different behaviours in one class as part of multiple  conditional statements
 
+- ## Structure:
+  ![class Diagramm](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEuDwwZEZV8bRWKbv2mtzEg-TmAP3NZ8alWg&usqp=CAU)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Strategy/strategy_example.dart)
 
