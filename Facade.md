@@ -19,6 +19,9 @@
 - ## Sidenote:
   The flutter framework makes heavy use of the Decorator pattern. For example when you wrap a widget with Positioned widget to set its position in the given constraints.
 
+- ## Structure:
+  ![class diagram](https://mertarauh.com/wp-content/uploads/2016/05/Facade.gif)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Facade/facade_example.dart)
 
