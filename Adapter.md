@@ -14,6 +14,9 @@
   - you want to create a reusable class that cooperates with unrelated or unforeseen classes that is classes that don't necessarily have compatible interfaces
   - (object adapter only) you need to use several existing subclasses, but it is impractical to adapt their interface by subclassing every one. An object adapter can adapt the interface of its parent class
 
+- ## Structure:
+  ![class diagram](https://miro.medium.com/max/974/1*CYQa922OwV3zgt2Xv_luEA.png)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Adapter/adapter_example.dart)
 
