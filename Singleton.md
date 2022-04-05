@@ -10,6 +10,9 @@
   - there must be exactly one instance of a class and it must be accessible to clients from a well known access point
   - when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code
 
+- ## Structure:
+  ![class diagram](https://miro.medium.com/max/1400/0*sO27CKj4z6e4stiN.png)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Factory/factory_example.dart)
 
