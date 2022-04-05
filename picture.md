@@ -1,0 +1,1 @@
+![class diagramm](https://www.dofactory.com/img/diagrams/net/bridge.png)
