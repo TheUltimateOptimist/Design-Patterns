@@ -13,6 +13,9 @@
   - support logging changes so that they can be reapplied in case of a system crash
   - structure a system around high-level operations built on primitive operations
 
+- ## Structure:
+  ![class diagram](https://miro.medium.com/max/1400/0*whyKeG0cDMnC6thc.png)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Command/command_example.dart)
 
