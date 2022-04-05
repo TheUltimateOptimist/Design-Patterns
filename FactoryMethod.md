@@ -15,6 +15,9 @@
   - you can let the Crator class be a concrete class offering a default implementation for the factory method
   - you can let the factoryMethod take a parameter and produce multiple types of objects based on that
 
+- ## Structure:
+  ![class diagram](https://www.dofactory.com/img/diagrams/net/factory.png)
+
 - ## Code Example
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/FactoryMethod/factory_method_example.dart)
 
