@@ -13,6 +13,9 @@
   - you do not want the client to need to know every subclass
   - you want to encapsulate object creation
 
+- ## Structure:
+  ![class diagram](https://s3.amazonaws.com/runzhuo-me/image/simple-factory.png)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Factory/factory_example.dart)
 
