@@ -18,6 +18,7 @@
 
 - ## Structure:
   ![class diagramm](https://www.patrickschadler.com/content/images/2020/10/Observer-UML.png)
+  
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer/observer_example.dart)
 

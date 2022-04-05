@@ -14,7 +14,10 @@
 
 - ## Prototype manager:
   When the number of prototypes in a system is not fixed you can use a prototype manager that lets the client register and retrieve prototypes by key. This way clients can browse through the available prototypes during runtime.
-  
+
+- ## Structure:
+  ![class diagram](https://namnguyen.design/static/25420b818a234c73551042056483b7e1/81523/prototypediagram.png)
+
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Prototype/prototype_example.dart)
 
