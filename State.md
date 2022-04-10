@@ -1,4 +1,4 @@
-# Iterator
+# State
 
 - ## Intent:
   Allow an object to alter its behaviour when its internal state changes. The Object will appear to change its class.
@@ -16,7 +16,7 @@
   - makes state transitions more explicit
   
 - ## Structure:
-  ![class diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/State_Design_Pattern_UML_Class_Diagram.svg/400px-State_Design_Pattern_UML_Class_Diagram.svg.png)
+  ![class diagramm](https://www.dofactory.com/img/diagrams/net/state.png)
   
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/State/state_example.dart)
