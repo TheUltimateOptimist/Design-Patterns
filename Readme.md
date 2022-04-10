@@ -28,5 +28,6 @@ This repository contains explanations of the usual software design patterns as w
   - [Command](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Command.md)
   - [Iterator](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Iterator.md)
   - [Observer](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer.md)
+  - [State](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/State.md)
   - [Strategy](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Strategy.md)
   - [TemplateMethod](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/TemplateMethod.md)
