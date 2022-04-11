@@ -23,6 +23,7 @@ This repository contains explanations of the usual software design patterns as w
   - [Decorator](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Decorator.md)
   - [Facade](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Facade.md)
   - [FlyWeight](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/FlyWeight.md)
+  - [Proxy](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Proxy.md)
 - ### Behvioral:
     Characterize ways in which classes or objects interact and distribute responsibility
   - [Command](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Command.md)
