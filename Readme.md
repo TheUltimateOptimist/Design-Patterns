@@ -26,6 +26,7 @@ This repository contains explanations of the usual software design patterns as w
   - [Proxy](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Proxy.md)
 - ### Behvioral:
     Characterize ways in which classes or objects interact and distribute responsibility
+  - [ChainOfResponsibility](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/ChainOfResponsibility.md)
   - [Command](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Command.md)
   - [Iterator](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Iterator.md)
   - [Observer](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer.md)
