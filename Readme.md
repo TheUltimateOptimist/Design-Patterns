@@ -28,7 +28,9 @@ This repository contains explanations of the usual software design patterns as w
     Characterize ways in which classes or objects interact and distribute responsibility
   - [ChainOfResponsibility](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/ChainOfResponsibility.md)
   - [Command](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Command.md)
+  - [Interpreter](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Interpreter.md)
   - [Iterator](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Iterator.md)
+  - [Mediator](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Mediator.md)
   - [Observer](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Observer.md)
   - [State](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/State.md)
   - [Strategy](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Strategy.md)
