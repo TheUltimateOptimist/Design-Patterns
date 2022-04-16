@@ -4,7 +4,7 @@
   Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
 - ## How it works:
-  First create a memento class that is responsible for storing an other object's state. It exposes  a ´getState()´ and a ´setState()´ method. The object whose state is stored by the memento needs to expose a `setMemento(Memento m)` method(adapts the object's state to state stored in the given memento) and a ´createMemento()´ method(returns a memento created from the object's state). So the client can then at any time store an originator's state by retrieving a Memento object using the ´createMemento()´ method and restore the same or any originator to that state later using the `setMemento(Memento m)` method. 
+  First create a memento class that is responsible for storing an other object's state. It exposes  a `getState()` and a `setState()` method. The object whose state is stored by the memento needs to expose a `setMemento(Memento m)` method(adapts the object's state to state stored in the given memento) and a `createMemento()` method(returns a memento created from the object's state). So the client can then at any time store an originator's state by retrieving a Memento object using the `createMemento()` method and restore the same or any originator to that state later using the `setMemento(Memento m)` method. 
   
 - ## Use when:
   - a snapshot of(some portion of) an object's state must be saved so that it can be restored to that state later, and
