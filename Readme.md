@@ -36,3 +36,4 @@ This repository contains explanations of the usual software design patterns as w
   - [State](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/State.md)
   - [Strategy](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Strategy.md)
   - [TemplateMethod](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/TemplateMethod.md)
+  - [Visitor](https://github.com/TheUltimateOptimist/Design-Patterns/blob/master/Visitor.md)
